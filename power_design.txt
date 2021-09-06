@@ -1,0 +1,16 @@
+This is power design for the FlexWatch OLED project. Entire system is powered by 2.7-3.6 battery. 
+NOTE : All part that said "in parallel" is the situation that I don't want to buy more passive component, so just use parallel resistor calculation to find out the lower resistance from connecting
+multiple Higher resistance Resistor that I already have in parallel.
+
+possible battery choices.
+1. LIR1254 (more expensive than LIR2032 since it's not popular).
+2. LIR2032 (probably my goto choice).
+
+
+Vboost for OLED 
+1. LTC3459. L = 33uH, R1 = 2M, R2 = x2 470k in parallel to get 11volt boost, Cvin = 1uF, Cvout = 2.2uF to 10uF.
+2. LT3494. L = 15uH, R1 = 1.3M (x2 2M in parallel might work), Ccap = .22uF, Cvout = 2.2uF.
+
+STM8L151F3 power.
+1. Normal High speed core clock is running at 1MHz, RTC running with 38kHz LSI.
+2. Put to sleep in Active halt mode, wake by portB EXTI (4 position mini joy stick + 1 middle button).
