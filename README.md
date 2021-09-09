@@ -6,7 +6,7 @@ Buying links
 
 [EPW1404AA1](https://www.aliexpress.com/item/1005002238967941.html).  
 [Hirose 11 pin 0.3mm connector](https://www.aliexpress.com/item/32849471537.html).  
-[PCB @OSHPark](https://oshpark.com/shared_projects/2C9hUHjm).  
+[PCB @OSHPark]https://oshpark.com/shared_projects/6PFMwRwW).  
 
 Source Code
 =
