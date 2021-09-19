@@ -1,5 +1,9 @@
 # Change Log
 
+rev 2.2
+= 
+- Changed ground plane from all solid copper to mesh-like plane
+
 rev2.1
 =
 
