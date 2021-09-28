@@ -1,4 +1,4 @@
-# Changelog (board rev3 schematic rev2).
+# Changelog (board rev3 schematic rev2). USE 10uH INDUCTOR!
 
 rev 3.1
 =
